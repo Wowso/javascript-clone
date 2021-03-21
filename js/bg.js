@@ -2,6 +2,7 @@ const body = document.querySelector("body");
 const spanTags = document.querySelector(".js-tags");
 const IMG_NUMBER = 100;
 const IMG_SEARCH = "landscape";
+const BG_API_KEY = "20435581-aba7c61c27a0fa2295544922d";
 
 var URL = `https://pixabay.com/api/?key=${BG_API_KEY}&q=${IMG_SEARCH}&image_type=photo&per_page=100`;
 
